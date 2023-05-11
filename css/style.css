@@ -205,7 +205,6 @@ header {
     right: 2rem;
     width: 6rem;
     height: 6rem;
-
     z-index: -1;
   }
 
@@ -237,8 +236,8 @@ header {
 
   .show .go-top-boton {
     animation: popup 0.3s ease-in-out;
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     z-index: 11;
   }
 
