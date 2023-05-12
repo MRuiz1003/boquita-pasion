@@ -88,7 +88,7 @@ header {
   align-items: center;
 }
 .encabezado__logo h2 {
-  color: var(--color-secundario);
+  color: var(--color-principal);
   font-size: 2.5rem;
 }
 .encabezado__navegacion {
@@ -100,7 +100,7 @@ header {
 }
 
 .encabezado__navegacion a {
-  color: var(--color-secundario);
+  color: var(--color-principal);
   text-align: center;
 }
 
