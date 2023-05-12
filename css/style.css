@@ -127,12 +127,52 @@ header {
   }
 }
 
-/* Contenido Principal */
+/* Contenido */
 .contenido {
   background-color: var(--color-secundario);
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
 }
 
-.contenido h2 {
+
+/* Partidos */
+.partidos {
+  color: var(--color-principal);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+  bottom: 10%;
+  padding-top: 5rem;
+  height: 70vh;
+  flex: 1;
+}
+@media (max-width: 960px) {
+    .contenido {
+      display: block;
+    }    
+    .partidos {
+      position: unset;
+      height: 50vh;
+      margin-bottom: 10rem;
+    }
+}
+.partidos h2 {
+  font-size: 3.4rem;
+}
+
+.partidos__calendario {
+  width: 100%;
+  height: 100%;
+}
+
+/* Contenido Principal */
+.contenido_principal {
+  background-color: var(--color-secundario);
+  flex: 2;
+}
+
+.contenido_principal h2 {
   font-size: 3.4rem;
   color: var(--color-principal);
   padding-top: 5rem;
@@ -274,7 +314,7 @@ header {
   background-color: var(--color-principal);
   border-top: 3px solid #000;
   border-bottom: 10px solid var(--color-secundario);
-  
+  z-index: 20;
 }
 
 .footer__logo {
