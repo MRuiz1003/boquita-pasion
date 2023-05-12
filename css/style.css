@@ -95,20 +95,21 @@ header {
   display: flex;
   justify-content: space-around;
   gap: 3rem;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   font-weight: bold;
 }
 
 .encabezado__navegacion a {
   color: var(--color-principal);
   text-align: center;
+  flex: 1 1 20%;
 }
 
 .encabezado__navegacion a:hover {
   color: white;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1008px) {
   .encabezado,
   .encabezado__navegacion {
     flex-direction: column;
@@ -121,6 +122,9 @@ header {
   }
   .encabezado__logo h2 {
     font-size: 3rem;
+  }
+  .encabezado__navegacion a {
+    font-size: 2.5rem;
   }
   .encabezado__navegacion a:last-of-type {
     margin-bottom: 2rem;
@@ -144,7 +148,7 @@ header {
   top: 5%;
   bottom: 10%;
   padding-top: 5rem;
-  height: 70vh;
+  height: 65vh;
   flex: 1;
 }
 @media (max-width: 960px) {
