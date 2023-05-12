@@ -95,7 +95,7 @@ header {
   display: flex;
   justify-content: space-around;
   gap: 3rem;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   font-weight: bold;
 }
 
@@ -122,6 +122,9 @@ header {
   .encabezado__logo h2 {
     font-size: 3rem;
   }
+  .encabezado__navegacion a {
+    font-size: 2.5rem;
+  }
   .encabezado__navegacion a:last-of-type {
     margin-bottom: 2rem;
   }
@@ -144,7 +147,7 @@ header {
   top: 5%;
   bottom: 10%;
   padding-top: 5rem;
-  height: 70vh;
+  height: 65vh;
   flex: 1;
 }
 @media (max-width: 960px) {
